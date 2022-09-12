@@ -9,16 +9,18 @@
 /* Begin PBXBuildFile section */
 		5E8E73C128C1529600A309DF /* Salary_tax_calculatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8E73C028C1529600A309DF /* Salary_tax_calculatorApp.swift */; };
 		5E8E73C328C1529600A309DF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8E73C228C1529600A309DF /* ContentView.swift */; };
-		5E8E73C528C1529800A309DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E8E73C428C1529800A309DF /* Assets.xcassets */; };
 		5E8E73C828C1529800A309DF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E8E73C728C1529800A309DF /* Preview Assets.xcassets */; };
+		5E8E73CF28C60F8200A309DF /* Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8E73CE28C60F8100A309DF /* Calculator.swift */; };
+		5E8E73D128C7C06900A309DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E8E73D028C7C06900A309DF /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5E8E73BD28C1529600A309DF /* Salary tax calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Salary tax calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E8E73BD28C1529600A309DF /* Salary tax calculator SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Salary tax calculator SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E8E73C028C1529600A309DF /* Salary_tax_calculatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Salary_tax_calculatorApp.swift; sourceTree = "<group>"; };
 		5E8E73C228C1529600A309DF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		5E8E73C428C1529800A309DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5E8E73C728C1529800A309DF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5E8E73CE28C60F8100A309DF /* Calculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculator.swift; sourceTree = "<group>"; };
+		5E8E73D028C7C06900A309DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,7 +45,7 @@
 		5E8E73BE28C1529600A309DF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5E8E73BD28C1529600A309DF /* Salary tax calculator.app */,
+				5E8E73BD28C1529600A309DF /* Salary tax calculator SwiftUI.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -53,7 +55,7 @@
 			children = (
 				5E8E73C028C1529600A309DF /* Salary_tax_calculatorApp.swift */,
 				5E8E73C228C1529600A309DF /* ContentView.swift */,
-				5E8E73C428C1529800A309DF /* Assets.xcassets */,
+				5E8E73CE28C60F8100A309DF /* Calculator.swift */,
 				5E8E73C628C1529800A309DF /* Preview Content */,
 			);
 			path = "Salary tax calculator";
@@ -62,6 +64,7 @@
 		5E8E73C628C1529800A309DF /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				5E8E73D028C7C06900A309DF /* Assets.xcassets */,
 				5E8E73C728C1529800A309DF /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
@@ -84,7 +87,7 @@
 			);
 			name = "Salary tax calculator";
 			productName = "Salary tax calculator";
-			productReference = 5E8E73BD28C1529600A309DF /* Salary tax calculator.app */;
+			productReference = 5E8E73BD28C1529600A309DF /* Salary tax calculator SwiftUI.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -125,8 +128,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E8E73D128C7C06900A309DF /* Assets.xcassets in Resources */,
 				5E8E73C828C1529800A309DF /* Preview Assets.xcassets in Resources */,
-				5E8E73C528C1529800A309DF /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5E8E73C328C1529600A309DF /* ContentView.swift in Sources */,
+				5E8E73CF28C60F8200A309DF /* Calculator.swift in Sources */,
 				5E8E73C128C1529600A309DF /* Salary_tax_calculatorApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,8 +284,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Hivzi.Salary-tax-calculator";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.taxcalculator.app;
+				PRODUCT_NAME = "Salary tax calculator SwiftUI";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -309,8 +313,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Hivzi.Salary-tax-calculator";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.taxcalculator.app;
+				PRODUCT_NAME = "Salary tax calculator SwiftUI";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
