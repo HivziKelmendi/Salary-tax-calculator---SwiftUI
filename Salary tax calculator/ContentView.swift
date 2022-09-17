@@ -15,12 +15,16 @@ struct ContentView: View {
         NavigationView {
             Form {
                 Section {
-                    TextField( "paga", value: $calculator.paga,
-                               format: .currency(code: Locale.current.currencyCode ?? "EUR"))
+                    TextField( "", text: $calculator.text)
+                               
+//                               format: .currency(code:  Locale.current.currencyCode ?? "EUR"))
                                
                         .keyboardType(.decimalPad)
                         .focused($pagaIsFocused)
-                
+                        .onChange(of: calculator.text) { newValue in
+                            calculator.paga = Double(newValue) ?? 0.0
+                        }
+                        .showClearButton($calculator.text)
               }
                 header: {
                     Text("Shkruaje pagën")
@@ -130,3 +134,8 @@ extension Double {
     }
 }
 
+extension View {
+    func showClearButton(_ text: Binding<String>) -> some View {
+        self.modifier(TextFieldClearButton(fieldText: text))
+    }
+}

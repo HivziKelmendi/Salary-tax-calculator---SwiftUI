@@ -8,6 +8,7 @@ import SwiftUI
 import Foundation
 
 struct Calculator {
+    var text = ""
     var  paga = 0.0
     var llojiIpages = "Bruto"
     var punedhenesi = "Primar"

@@ -12,6 +12,7 @@
 		5E8E73C828C1529800A309DF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E8E73C728C1529800A309DF /* Preview Assets.xcassets */; };
 		5E8E73CF28C60F8200A309DF /* Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8E73CE28C60F8100A309DF /* Calculator.swift */; };
 		5E8E73D128C7C06900A309DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E8E73D028C7C06900A309DF /* Assets.xcassets */; };
+		5E8E73D528D66C2D00A309DF /* TextFieldClearButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8E73D428D66C2C00A309DF /* TextFieldClearButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		5E8E73C728C1529800A309DF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5E8E73CE28C60F8100A309DF /* Calculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculator.swift; sourceTree = "<group>"; };
 		5E8E73D028C7C06900A309DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5E8E73D428D66C2C00A309DF /* TextFieldClearButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldClearButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				5E8E73C228C1529600A309DF /* ContentView.swift */,
 				5E8E73CE28C60F8100A309DF /* Calculator.swift */,
 				5E8E73C628C1529800A309DF /* Preview Content */,
+				5E8E73D428D66C2C00A309DF /* TextFieldClearButton.swift */,
 			);
 			path = "Salary tax calculator";
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5E8E73C328C1529600A309DF /* ContentView.swift in Sources */,
+				5E8E73D528D66C2D00A309DF /* TextFieldClearButton.swift in Sources */,
 				5E8E73CF28C60F8200A309DF /* Calculator.swift in Sources */,
 				5E8E73C128C1529600A309DF /* Salary_tax_calculatorApp.swift in Sources */,
 			);
